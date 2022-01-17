@@ -4,7 +4,7 @@ Fully working, read all parameters correctly.
 
 ## Description  
 
-1. The componenet depends on i2cdev componment for all i2c bus i/o which can be found here: https://github.com/UncleRus/esp-idf-lib/tree/master/components/i2cdev/
+1. The componenet depends on my modified i2cdev componment for all i2c bus i/o which can be found here: https://github.com/Rajssss/esp_i2cdev_mod
 2. Only I2C support for now
 3. Kconfig/menuconfig support is WIP, see #define marcos in bme68xLibrary.cpp file to configure the driver for now.
 	<pre>  
