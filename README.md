@@ -1,7 +1,7 @@
 # BME 68x ESP-IDF Component 
  
 Fully working, read all parameters correctly.
-
+Based on Arduino Lib by Bosch.
 ## Description  
 
 1. The componenet depends on my modified i2cdev componment for all i2c bus i/o which can be found here: https://github.com/Rajssss/esp_i2cdev_mod
@@ -10,7 +10,7 @@ Fully working, read all parameters correctly.
 	<pre>  
 	#define I2C_SDA_GPIO 			40
 	#define I2C_SCL_GPIO 			39
-	#define I2C_PORT 				0
+	#define I2C_PORT 			0
 	#define I2C_BME68x_ADDR		0x76
 	#define I2C_FREQ_HZ 			40000
 	</pre>  
